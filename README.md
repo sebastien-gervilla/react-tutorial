@@ -1,2 +1,1 @@
-# react-tutorial
-A React setup tutorial
+# React Application Tutorial
