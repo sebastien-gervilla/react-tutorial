@@ -1,0 +1,38 @@
+.step {
+    width: 50vw;
+    padding: 2vw;
+    padding-bottom: .5vw;
+    margin-bottom: 5vw;
+
+    background-color: $light-color;
+    box-shadow: $main-shadow;
+
+    h2 {
+        margin-bottom: 2vw;
+
+        font-size: 1.75vw;
+    }
+
+    p {
+        display: flex;
+        align-items: center;
+
+        margin-bottom: 1.5vw;
+
+        font-size: 1.1vw;
+
+        &.text {
+            margin-bottom: .3vw;
+        }
+    }
+
+    ul {
+        margin-bottom: 1.5vw;
+
+        li {
+            margin-bottom: .5vw;
+    
+            font-size: 1.1vw;
+        }
+    }
+}
