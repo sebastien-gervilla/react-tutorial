@@ -24,7 +24,7 @@ const FirstPart = () => { // USE CLIPBOARD FOR CODE
                         <p className='text'>puis tapez <Code code={'npx create-react-app .'} /></p>,
                         <p>Notez le point à la fin, qui est le chemin où l'on veut créer notre application.</p>,
                         <p>Si tout s'est bien passé, vous devriez avoir ce résultat :</p>,
-                        <img src="/assets/images/create-react-app.png" alt="Create React App Result" />,
+                        <img src="./assets/images/create-react-app.png" alt="Create React App Result" />,
                         <p>On va ensuite installer les packages utilisés pour ce tutoriel.</p>,
                         <ul>
                             <li>- react-router-dom : Permet de gérer vos routes en React.</li>
@@ -34,7 +34,7 @@ const FirstPart = () => { // USE CLIPBOARD FOR CODE
                         <Info text={"Le -s est un raccourci de l'option --silent, masquant le texte de sortie de npm."} />,
                         <p className='text'>Une fois installés, les packages sont inscrits dans les "dependencies" du "package.json".</p>,
                         <p>"dependencies" signifient qu'ils sont nécéssaires à l'exécution de votre application. </p>,
-                        <img src="/assets/images/dependencies.png" alt="Dependencies in package.json" />
+                        <img src="./assets/images/dependencies.png" alt="Dependencies in package.json" />
                     ]} />
                     <Step number={2} title={"Nettoyage du projet"} components={[
                         <p className='text'>Cette manière de créer une application React est très pratique,</p>,
@@ -43,14 +43,14 @@ const FirstPart = () => { // USE CLIPBOARD FOR CODE
                         <p>On va donc se faire un plaisir de tout nettoyer, en commançant par le dossier "/public".</p>,
                         <p className='text'>Ici on va garder uniquement les fichiers "favicon.ico", ainsi que "index.html",</p>,
                         <p>que vous allez ensuite ouvrir, pour y retirer tout le code inutile : </p>,
-                        <img src="/assets/images/index-html.png" alt="Index after cleanup" />,
+                        <img src="./assets/images/index-html.png" alt="Index after cleanup" />,
                         <p className='text'>Vous pouvez également changer le titre, pour moi ça sera "React Note Application",</p>,
                         <p>ainsi que la description, voire même la langue si vous le souhaitez.</p>,
                         <p>Quand c'est fait, on peut passer directement au dossier "/src".</p>,
                         <p className='text'>Ici encore on ne va garder que deux fichiers: "App.js" ainsi que "index.js",</p>,
                         <p>que l'on va nettoyer comme suit :</p>,
                         <p className='text' style={{fontStyle: 'italic'}}>index.js</p>,
-                        <img src="/assets/images/index-js.png" alt="IndexJS after cleanup" />
+                        <img src="./assets/images/index-js.png" alt="IndexJS after cleanup" />
                     ]} />
                     <Step number={3} title={"Organisation du projet"} components={[
                         <p className='text'>Il y a plein de façons d'organiser sont projet, et ça va surtout dépendre de l'objectif de celui-ci.</p>,
