@@ -1,0 +1,13 @@
+.main-area {
+    .main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include app-content;
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}

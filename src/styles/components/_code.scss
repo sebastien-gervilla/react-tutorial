@@ -1,0 +1,14 @@
+.code {
+    display: flex;
+    padding: .25vw .5vw;
+    margin: 0 .5vw;
+
+    background-color: $light-gray-color;
+    border-radius: .5vw;
+
+    p {
+        font-size: 1.1vw;
+
+        margin: 0;
+    }
+}

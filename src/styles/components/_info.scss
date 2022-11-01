@@ -1,0 +1,42 @@
+.info {
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+    padding: 1vw .5vw;
+    margin-bottom: 1.5vw;
+
+    background-color: #3794f244;
+
+    svg {
+        width: 1.5vw;
+        height: 1.5vw;
+        margin: 0 .25vw;
+
+        color: $main-color;
+    }
+
+    h4 {
+        margin: 0 .5vw;
+
+        font-size: 1.2vw;
+    }
+
+    p {
+        margin: 0;
+
+        font-size: 1.1vw;
+    }
+
+    &::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        bottom: 0;
+        left: 0;
+
+        width: .2vw;
+
+        background-color: $main-color;
+    }
+}
