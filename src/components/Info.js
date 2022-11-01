@@ -5,7 +5,7 @@ const Info = ({ text }) => {
     return (
         <div className="info">
             <BiInfoCircle />
-            <h4>Info : </h4>
+            <h4>Info&nbsp;: </h4>
             <p>{text}</p>
         </div>
     );
