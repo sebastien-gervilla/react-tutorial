@@ -7,6 +7,7 @@ import CreateReactApp from '../assets/images/index-js.png';
 import Dependencies from '../assets/images/index-js.png';
 import IndexHTML from '../assets/images/index-js.png';
 import IndexJS from '../assets/images/index-js.png';
+import FinalResult from '../assets/images/final-result.png';
 
 const FirstPart = () => { // USE CLIPBOARD FOR CODE
     return (
@@ -73,7 +74,8 @@ const FirstPart = () => { // USE CLIPBOARD FOR CODE
                             <li>- "fonts" : Vos typographies.</li>
                             <li>- "images" : Toutes vos images.</li>
                         </ul>,
-                        <p>Si vous avez suivi <i>&nbsp;chacune&nbsp;</i> des étapes :upsidedown_smile:, vous devriez avoir ce résultat :</p>
+                        <p>Si vous avez suivi <i>&nbsp;chacune&nbsp;</i> des étapes :upsidedown_smile:, vous devriez avoir ce résultat :</p>,
+                        <img src={FinalResult} alt="Final result after tutorial" />
                     ]} />
                 </div>
             </div>
