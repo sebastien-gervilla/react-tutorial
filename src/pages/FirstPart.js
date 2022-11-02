@@ -3,6 +3,11 @@ import Code from '../components/Code';
 import Info from '../components/Info';
 import Step from '../components/Step';
 
+import CreateReactApp from '../assets/images/index-js.png';
+import Dependencies from '../assets/images/index-js.png';
+import IndexHTML from '../assets/images/index-js.png';
+import IndexJS from '../assets/images/index-js.png';
+
 const FirstPart = () => { // USE CLIPBOARD FOR CODE
     return (
         <section className="first-part">
@@ -24,7 +29,7 @@ const FirstPart = () => { // USE CLIPBOARD FOR CODE
                         <p className='text'>puis tapez <Code code={'npx create-react-app .'} /></p>,
                         <p>Notez le point à la fin, qui est le chemin où l'on veut créer notre application.</p>,
                         <p>Si tout s'est bien passé, vous devriez avoir ce résultat :</p>,
-                        <img src="./react-tutorial/assets/images/create-react-app.png" alt="Create React App Result" />,
+                        <img src={CreateReactApp} alt="Create React App Result" />,
                         <p>On va ensuite installer les packages utilisés pour ce tutoriel.</p>,
                         <ul>
                             <li>- react-router-dom : Permet de gérer vos routes en React.</li>
@@ -34,7 +39,7 @@ const FirstPart = () => { // USE CLIPBOARD FOR CODE
                         <Info text={"Le -s est un raccourci de l'option --silent, masquant le texte de sortie de npm."} />,
                         <p className='text'>Une fois installés, les packages sont inscrits dans les "dependencies" du "package.json".</p>,
                         <p>"dependencies" signifient qu'ils sont nécéssaires à l'exécution de votre application. </p>,
-                        <img src="./react-tutorial/assets/images/dependencies.png" alt="Dependencies in package.json" />
+                        <img src={Dependencies} alt="Dependencies in package.json" />
                     ]} />
                     <Step number={2} title={"Nettoyage du projet"} components={[
                         <p className='text'>Cette manière de créer une application React est très pratique,</p>,
@@ -43,31 +48,32 @@ const FirstPart = () => { // USE CLIPBOARD FOR CODE
                         <p>On va donc se faire un plaisir de tout nettoyer, en commançant par le dossier "/public".</p>,
                         <p className='text'>Ici on va garder uniquement les fichiers "favicon.ico", ainsi que "index.html",</p>,
                         <p>que vous allez ensuite ouvrir, pour y retirer tout le code inutile : </p>,
-                        <img src="./react-tutorial/assets/images/index-html.png" alt="Index after cleanup" />,
+                        <img src={IndexHTML} alt="Index after cleanup" />,
                         <p className='text'>Vous pouvez également changer le titre, pour moi ça sera "React Note Application",</p>,
                         <p>ainsi que la description, voire même la langue si vous le souhaitez.</p>,
                         <p>Quand c'est fait, on peut passer directement au dossier "/src".</p>,
                         <p className='text'>Ici encore on ne va garder que deux fichiers: "App.js" ainsi que "index.js",</p>,
                         <p>que l'on va nettoyer comme suit :</p>,
                         <p className='text' style={{fontStyle: 'italic'}}>index.js</p>,
-                        <img src="./react-tutorial/assets/images/index-js.png" alt="IndexJS after cleanup" />
+                        <img src={IndexJS} alt="IndexJS after cleanup" />
                     ]} />
                     <Step number={3} title={"Organisation du projet"} components={[
                         <p className='text'>Il y a plein de façons d'organiser sont projet, et ça va surtout dépendre de l'objectif de celui-ci.</p>,
                         <p>Ici je vais vous montrer la mienne, mais libre à vous de la modifier selon vos besoins&nbsp;!</p>,
-                        <p>Pour commencer, on va se rendre dans "/src", et créer 3 dossiers :</p>,
+                        <p>Pour commencer, on va se rendre dans "/src", et créer 4 dossiers :</p>,
                         <ul>
                             <li>- "components" : Tous nos composants réutilisables React.</li>
                             <li>- "pages" : Les différentes pages de notre application.</li>
                             <li>- "styles" : Nos feuilles de styles. (SASS pour ce tutoriel).</li>
                         </ul>,
                         <Info text={"Pour VS Code je vous recommande fortement l'extension Material Icon Theme."} />,
-                        <p className='text'>Une fois ça fait, vous allez ensuite vous diriger vers le dossier "/public",</p>,
-                        <p>et créer un dossier "assets", et dedans 2 autres dossiers (sa fé bcp là nn ?) :</p>,
+                        <p className='text'>Une fois ça fait, vous allez ensuite créer un autre dossier "assets",</p>,
+                        <p>dans lequel on va ajouter 2 autres dossiers (sa fé bcp là nn ? oui.) :</p>,
                         <ul>
                             <li>- "fonts" : Vos typographies.</li>
                             <li>- "images" : Toutes vos images.</li>
                         </ul>,
+                        <p>Si vous avez suivi <i>&nbsp;chacune&nbsp;</i> des étapes :upsidedown_smile:, vous devriez avoir ce résultat :</p>
                     ]} />
                 </div>
             </div>
