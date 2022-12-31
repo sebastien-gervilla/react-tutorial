@@ -3,11 +3,11 @@ import Code from '../components/Code';
 import Info from '../components/Info';
 import Step from '../components/Step';
 
-import CreateReactApp from '../assets/images/index-js.png';
-import Dependencies from '../assets/images/index-js.png';
-import IndexHTML from '../assets/images/index-js.png';
+import CreateReactApp from '../assets/images/create-react-app.png';
+import Dependencies from '../assets/images/dependencies.png';
+import IndexHTML from '../assets/images/index-html.png';
 import IndexJS from '../assets/images/index-js.png';
-import FinalResult from '../assets/images/final-result.png';
+import FinalResult from '../assets/images/final-result.PNG';
 
 const FirstPart = () => { // USE CLIPBOARD FOR CODE
     return (
