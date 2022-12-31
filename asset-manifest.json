@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/react-tutorial/static/css/main.504d6ca4.css",
-    "main.js": "/react-tutorial/static/js/main.c9faeb4b.js",
+    "main.js": "/react-tutorial/static/js/main.d903a0c6.js",
+    "static/media/index-html.png": "/react-tutorial/static/media/index-html.5fccd9d10294dbfdce13.png",
+    "static/media/dependencies.png": "/react-tutorial/static/media/dependencies.a841711014567b251640.png",
     "static/media/index-js.png": "/react-tutorial/static/media/index-js.5ed12c9927bd5df1e5f0.png",
-    "static/media/final-result.png": "/react-tutorial/static/media/final-result.04af78574aead3f0f0c4.png",
+    "static/media/final-result.PNG": "/react-tutorial/static/media/final-result.04af78574aead3f0f0c4.PNG",
+    "static/media/create-react-app.png": "/react-tutorial/static/media/create-react-app.37089568e8af8757e4e4.png",
     "index.html": "/react-tutorial/index.html",
     "main.504d6ca4.css.map": "/react-tutorial/static/css/main.504d6ca4.css.map",
-    "main.c9faeb4b.js.map": "/react-tutorial/static/js/main.c9faeb4b.js.map"
+    "main.d903a0c6.js.map": "/react-tutorial/static/js/main.d903a0c6.js.map"
   },
   "entrypoints": [
     "static/css/main.504d6ca4.css",
-    "static/js/main.c9faeb4b.js"
+    "static/js/main.d903a0c6.js"
   ]
 }
